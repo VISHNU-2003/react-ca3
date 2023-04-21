@@ -1,0 +1,37 @@
+body {
+    margin: 180px;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+  }
+  
+  /* Make the App component fill the entire viewport */
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Make the Dashboard component centered and responsive */
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    /* Reduce the max-width and padding of the dashboard-container on smaller screens */
+    .dashboard-container {
+      max-width: 90%;
+      padding: 10px;
+    }
+  }
+  
