@@ -43,3 +43,12 @@ const employeesData = [
 ];
 
 export { employeesData };
+//This is JavaScript code that defines an array of employee objects called `employeesData`. Each employee object contains five properties:
+
+// - `id`: an integer that represents the unique identifier of the employee.
+// - `firstName`: a string that represents the first name of the employee.
+// - `lastName`: a string that represents the last name of the employee.
+// - `email`: a string that represents the email address of the employee.
+// - `salary`: a string that represents the monthly salary of the employee.
+
+// The last line of the code exports the `employeesData` array using the ES6 export syntax, so that it can be imported and used in other modules.//

@@ -114,3 +114,10 @@ function Add({ employees, setEmployees, setIsAdding }) {
 }
 
 export default Add
+// This code is a React component named "Add" which is responsible for adding a new employee to a list of employees. It has several states that hold the values of the first name, last name, email, salary, and date of the new employee. It also has two props, "employees" and "setEmployees", which are used to access and update the list of employees.
+
+// The component has a form with input fields for the user to enter the data of the new employee. It also has a submit button to trigger the "handleAdd" function, which is called when the form is submitted. This function first checks if all the required fields are filled, and if not, it displays an error message using the "Swal.fire" function from the "sweetalert2" library. If all fields are filled, it creates a new employee object with a unique ID and the values entered by the user, pushes this object to the "employees" array, and updates the "employees" state using the "setEmployees" function. It also displays a success message using the "Swal.fire" function.
+
+// To ensure that the focus is set on the first name input field when the component is mounted, the component uses the "useRef" hook to create a reference to this input field and the "useEffect" hook to call the "focus" method on this reference when the component is mounted.
+
+// The component returns a form with input fields and buttons, wrapped in a container div with a class of "small-container". The component is exported as the default export of the module, which means it can be imported and used in other parts of the application.

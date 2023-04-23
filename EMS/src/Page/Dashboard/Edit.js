@@ -111,3 +111,11 @@ function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }) {
 }
 
 export default Edit
+
+// This code defines a React component called `Edit`. The component receives several props including `employees`, `selectedEmployee`, `setEmployees`, and `setIsEditing`. It uses the `useState` hook to create state variables to manage the values of form input fields for editing an employee's information.
+
+// The `handleUpdate` function is called when the form is submitted and updates the selected employee's information. It first validates that all fields are filled out and displays an error message using the SweetAlert2 library if any fields are missing. If all fields are filled out, it creates a new `employee` object with the updated information and replaces the old employee object with the new one in the `employees` array. Finally, it updates the state variables `employees` and `isEditing`, and displays a success message using SweetAlert2.
+
+// The `Edit` component renders a form with input fields for the employee's first name, last name, email, salary, and date. The `onSubmit` event of the form is set to the `handleUpdate` function defined above. When the user submits the form, the `handleUpdate` function is called to update the employee's information. There are also buttons for submitting and canceling the update.
+
+// Overall, the `Edit` component is used to edit an existing employee's information and update it in the `employees` array.

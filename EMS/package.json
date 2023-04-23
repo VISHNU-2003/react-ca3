@@ -1,5 +1,5 @@
 {
-  "name": "employee-management-system",
+  "name": "vishnu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,9 +35,25 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version"
     ]
-  }
+  },
+  "description": "employee management system",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VISHNU-2003/react-ca3.git"
+  },
+  "keywords": [
+    "employee",
+    "swalaret2",
+    "etc...."
+  ],
+  "author": "alapati vishnu vardhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VISHNU-2003/react-ca3/issues"
+  },
+  "homepage": "https://github.com/VISHNU-2003/react-ca3#readme"
 }
